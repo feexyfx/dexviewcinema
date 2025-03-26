@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Showtimes - Cinema Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="showtimes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">Dexview Cinema</div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="showtimes.html" class="active">Showtimes</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Showtimes Header -->
+    <section class="page-header">
+        <h1>Movie Showtimes</h1>
+        <p>Book your tickets for today's shows</p>
+    </section>
+
+    <!-- Date Selection -->
+    <div class="date-selector">
+        <button class="date-btn active">Today</button>
+        <button class="date-btn">Tomorrow</button>
+        <button class="date-btn">Wed, Apr 17</button>
+        <button class="date-btn">Thu, Apr 18</button>
+        <button class="date-btn">Fri, Apr 19</button>
+    </div>
+
+    <!-- Showtimes Grid -->
+    <div class="showtimes-container">
+        <!-- Movie 1 -->
+        <div class="showtime-card">
+            <div class="movie-poster">
+                <img src="Love Of The Irish.jpg" alt="The Dark Knight">
+            </div>
+            <div class="showtime-info">
+                <h3>The Dark Knight</h3>
+                <div class="movie-meta">
+                    <span class="rating">PG-13</span>
+                    <span class="duration">2h 32min</span>
+                    <span class="genre">Action, Crime, Drama</span>
+                </div>
+                <div class="showtime-slots">
+                    <button class="time-slot">10:30 AM</button>
+                    <button class="time-slot">1:45 PM</button>
+                    <button class="time-slot">4:30 PM</button>
+                    <button class="time-slot">7:15 PM</button>
+                    <button class="time-slot">10:00 PM</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Movie 2 -->
+        <div class="showtime-card">
+            <div class="movie-poster">
+                <img src="The Gardener.jpg" alt="Inception">
+            </div>
+            <div class="showtime-info">
+                <h3>Inception</h3>
+                <div class="movie-meta">
+                    <span class="rating">PG-13</span>
+                    <span class="duration">2h 28min</span>
+                    <span class="genre">Action, Sci-Fi</span>
+                </div>
+                <div class="showtime-slots">
+                    <button class="time-slot">11:00 AM</button>
+                    <button class="time-slot">2:15 PM</button>
+                    <button class="time-slot">5:00 PM</button>
+                    <button class="time-slot">7:45 PM</button>
+                    <button class="time-slot">10:30 PM</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Movie 3 -->
+        <div class="showtime-card">
+            <div class="movie-poster">
+                <img src="Voice of Shadows.jpg" alt="The Matrix">
+            </div>
+            <div class="showtime-info">
+                <h3>The Matrix</h3>
+                <div class="movie-meta">
+                    <span class="rating">R</span>
+                    <span class="duration">2h 16min</span>
+                    <span class="genre">Action, Sci-Fi</span>
+                </div>
+                <div class="showtime-slots">
+                    <button class="time-slot">12:00 PM</button>
+                    <button class="time-slot">2:45 PM</button>
+                    <button class="time-slot">5:30 PM</button>
+                    <button class="time-slot">8:15 PM</button>
+                    <button class="time-slot">11:00 PM</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: info@cinemahub.com</p>
+                <p>Phone: (555) 123-4567</p>
+                <p>Address: 123 Movie Street, Cinema City</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Cinema Hub. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
